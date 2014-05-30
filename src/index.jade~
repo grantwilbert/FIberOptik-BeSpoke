@@ -27,14 +27,30 @@ html
           li Eliot Tan       121110588
         
       section
-        h2 <a href="http://id.wikipedia.org/wiki/Serat_optik" target="_tab">Fiber Optik</a>
-	p(style='font-size:15px;') Serat optik adalah saluran transmisi atau sejenis kabel yang  terbuat dari serat kaca atau plastik yang sangat halus dan lebih kecil dari sehelai rambut (sekitar 120 mikrometer), dan dapat digunakan untuk mentransmisikan sinyal cahaya dari suatu tempat ke tempat lain hingga jarak 50km
+        <a href="http://id.wikipedia.org/wiki/Serat_optik" target="_tab">Fiber Optik</a>
+	p Serat optik adalah saluran transmisi atau sejenis kabel yang  terbuat dari serat kaca atau plastik yang sangat halus dan lebih kecil dari sehelai rambut (sekitar 120 mikrometer), dan dapat digunakan untuk mentransmisikan sinyal cahaya dari suatu tempat ke tempat lain hingga jarak 50km
+
+	section
+	h2 testing
 
 
       section
         h2 Sejarah Fiber Optik
-        p(style='font-size:12px; text-align:left;') Penggunaan cahaya sebagai pembawa informasi sebenarnya sudah banyak digunakan sejak zaman dahulu, baru sekitar tahun 1930-an para ilmuwan Jermanmengawali eksperimen untuk mentransmisikan cahaya melalui bahan yang bernama serat optik. Percobaan ini juga masih tergolong cukup primitif karena hasil yang dicapai tidak bisa langsung dimanfaatkan, namun harus melalui perkembangan dan penyempurnaan lebih lanjut lagi. Perkembangan selanjutnyaadalah ketika para ilmuawan Inggris pada tahun 1958 mengusulkan prototipeserat optik yang sampai sekarang dipakai yaitu yang terdiri atas gelas inti yang dibungkus oleh gelas lainnya. Sekitar awal tahun 1960-an perubahan fantastisterjadi di Asia yaitu ketika para ilmuwan Jepang berhasil membuat jenis seratoptik yang mampu mentransmisikan gambar.
-        p<a href='File/web/sejarah.html' target="_tab">Klik Jika ingin baca lebih lanjut</a>
+        p(style='font-size:12px;) Penggunaan cahaya sebagai pembawa informasi sebenarnya sudah banyak digunakan sejak zaman dahulu, baru sekitar tahun 1930-an para ilmuwan Jermanmengawali eksperimen untuk mentransmisikan cahaya melalui bahan yang bernama serat optik. Percobaan ini juga masih tergolong cukup primitif karena hasil yang dicapai tidak bisa langsung dimanfaatkan, namun harus melalui perkembangan dan penyempurnaan lebih lanjut lagi. Perkembangan selanjutnyaadalah ketika para ilmuawan Inggris pada tahun 1958 mengusulkan prototipeserat optik yang sampai sekarang dipakai yaitu yang terdiri atas gelas inti yang dibungkus oleh gelas lainnya. Sekitar awal tahun 1960-an perubahan fantastisterjadi di Asia yaitu ketika para ilmuwan Jepang berhasil membuat jenis seratoptik yang mampu mentransmisikan gambar.
+        <a href='File/web/sejarah.html' target="_tab">Klik Jika ingin baca lebih lanjut</a>
+
+      section
+        h2 Fungsi Fiber Optik
+          h3 Fungsi Fiber Optik adalah mengarahkan gelombang cahaya dalam satu arah lewat proses terjadinya pembiasan cahaya.
+
+      section
+        h2 Sebab Pelemahan Cahaya Fiber Optik
+          ul(style= 'font-size : 14px;')
+            li Pelemahan (Attenuation) cahaya sangat penting diketahui terutama dalam merancang sistem telekomunikasi serat optik itu sendiri. 
+            li Berikut ini beberapa hal yang menyumbang kepada pelemahan cahaya pada serat optik :
+            li(style='text-align : left;') 1. Penyerapan (Absorption) : Kehilangan cahaya yang disebabkan adanya kotoran dalam Fiber Optik
+            li(style='text-align : left;') 2. Penyebaran (Scattering)
+            li(style='text-align : left;') 3. Kehilangan Radiasi (Radiative Losses)
 
       section
         h3.bullet Struktur fiber optik terdiri dari beberapa susunan
