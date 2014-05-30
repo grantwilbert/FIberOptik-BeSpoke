@@ -33,8 +33,8 @@ html
 
       section
         h2 Sejarah Fiber Optik
-        p(style='font-size:12px;) Penggunaan cahaya sebagai pembawa informasi sebenarnya sudah banyak digunakan sejak zaman dahulu, baru sekitar tahun 1930-an para ilmuwan Jermanmengawali eksperimen untuk mentransmisikan cahaya melalui bahan yang bernama serat optik. Percobaan ini juga masih tergolong cukup primitif karena hasil yang dicapai tidak bisa langsung dimanfaatkan, namun harus melalui perkembangan dan penyempurnaan lebih lanjut lagi. Perkembangan selanjutnyaadalah ketika para ilmuawan Inggris pada tahun 1958 mengusulkan prototipeserat optik yang sampai sekarang dipakai yaitu yang terdiri atas gelas inti yang dibungkus oleh gelas lainnya. Sekitar awal tahun 1960-an perubahan fantastisterjadi di Asia yaitu ketika para ilmuwan Jepang berhasil membuat jenis seratoptik yang mampu mentransmisikan gambar.
-        <a href='File/web/sejarah.html' target="_tab">Klik Jika ingin baca lebih lanjut</a>
+        p(style='font-size:12px; text-align:left;') Penggunaan cahaya sebagai pembawa informasi sebenarnya sudah banyak digunakan sejak zaman dahulu, baru sekitar tahun 1930-an para ilmuwan Jermanmengawali eksperimen untuk mentransmisikan cahaya melalui bahan yang bernama serat optik. Percobaan ini juga masih tergolong cukup primitif karena hasil yang dicapai tidak bisa langsung dimanfaatkan, namun harus melalui perkembangan dan penyempurnaan lebih lanjut lagi. Perkembangan selanjutnyaadalah ketika para ilmuawan Inggris pada tahun 1958 mengusulkan prototipeserat optik yang sampai sekarang dipakai yaitu yang terdiri atas gelas inti yang dibungkus oleh gelas lainnya. Sekitar awal tahun 1960-an perubahan fantastisterjadi di Asia yaitu ketika para ilmuwan Jepang berhasil membuat jenis seratoptik yang mampu mentransmisikan gambar.
+        p<a href='File/web/sejarah.html' target="_tab">Klik Jika ingin baca lebih lanjut</a>
 
       section
         h3.bullet Struktur fiber optik terdiri dari beberapa susunan
