@@ -102,7 +102,7 @@
   background: rgb(42, 206, 185);
 }
 .coverflow a {
-  color: rgb(42, 206, 185);
+  color: rgb(0,102,204) 206, 185, 1);
 }
 .coverflow section.bespoke-before {
   -webkit-transform: translateX(-270px) rotateY(45deg) scale(0.6);
