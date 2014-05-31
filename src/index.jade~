@@ -8,17 +8,15 @@ html
     // build:css styles/styles.css
     //- Check out 'src/bower_components/prism/themes/' for available themes
     link(rel='stylesheet', type='text/css', href='bower_components/prism/themes/prism-tomorrow.css')
-    link(rel='stylesheet', type='text/css', href='styles/themes.css')
     link(rel='stylesheet', type='text/css', href='styles/main.css')
     // endbuild
 
-  body.coverflow
+  body
 
     article
 
       section
         h1 Fiber Optik
-        img(src='File/image/fiber-optic.jpg')
 
       section
         h2 Nama Anggota
@@ -30,18 +28,29 @@ html
         
       section
         <a href="http://id.wikipedia.org/wiki/Serat_optik" target="_tab">Fiber Optik</a>
-        p Serat optik adalah saluran transmisi atau sejenis kabel yang  terbuat dari serat kaca atau plastik yang sangat halus dan lebih kecil dari sehelai rambut (sekitar 120 mikrometer), dan dapat digunakan untuk mentransmisikan sinyal cahaya dari suatu tempat ke tempat lain hingga jarak 50km
+	p Serat optik adalah saluran transmisi atau sejenis kabel yang  terbuat dari serat kaca atau plastik yang sangat halus dan lebih kecil dari sehelai rambut (sekitar 120 mikrometer), dan dapat digunakan untuk mentransmisikan sinyal cahaya dari suatu tempat ke tempat lain hingga jarak 50km
+
+	section
+	h2 testing
 
 
       section
         h2 Sejarah Fiber Optik
-        p(style='font-size:12px;') Penggunaan cahaya sebagai pembawa informasi sebenarnya sudah banyak digunakan sejak zaman dahulu, baru sekitar tahun 1930-an para ilmuwan Jermanmengawali eksperimen untuk mentransmisikan cahaya melalui bahan yang bernama serat optik. Percobaan ini juga masih tergolong cukup primitif karena hasil yang dicapai tidak bisa langsung dimanfaatkan, namun harus melalui perkembangan dan penyempurnaan lebih lanjut lagi. Perkembangan selanjutnyaadalah ketika para ilmuawan Inggris pada tahun 1958 mengusulkan prototipeserat optik yang sampai sekarang dipakai yaitu yang terdiri atas gelas inti yang dibungkus oleh gelas lainnya. Sekitar awal tahun 1960-an perubahan fantastisterjadi di Asia yaitu ketika para ilmuwan Jepang berhasil membuat jenis seratoptik yang mampu mentransmisikan gambar.
+        p(style='font-size:12px;) Penggunaan cahaya sebagai pembawa informasi sebenarnya sudah banyak digunakan sejak zaman dahulu, baru sekitar tahun 1930-an para ilmuwan Jermanmengawali eksperimen untuk mentransmisikan cahaya melalui bahan yang bernama serat optik. Percobaan ini juga masih tergolong cukup primitif karena hasil yang dicapai tidak bisa langsung dimanfaatkan, namun harus melalui perkembangan dan penyempurnaan lebih lanjut lagi. Perkembangan selanjutnyaadalah ketika para ilmuawan Inggris pada tahun 1958 mengusulkan prototipeserat optik yang sampai sekarang dipakai yaitu yang terdiri atas gelas inti yang dibungkus oleh gelas lainnya. Sekitar awal tahun 1960-an perubahan fantastisterjadi di Asia yaitu ketika para ilmuwan Jepang berhasil membuat jenis seratoptik yang mampu mentransmisikan gambar.
         <a href='File/web/sejarah.html' target="_tab">Klik Jika ingin baca lebih lanjut</a>
 
       section
         h2 Fungsi Fiber Optik
-        h3 Fungsi Fiber Optik adalah mengarahkan gelombang cahaya dalam satu arah lewat proses terjadinya pembiasan cahaya.
+          h3 Fungsi Fiber Optik adalah mengarahkan gelombang cahaya dalam satu arah lewat proses terjadinya pembiasan cahaya.
 
+      section
+        h2 Sebab Pelemahan Cahaya Fiber Optik
+          ul(style= 'font-size : 14px;')
+            li Pelemahan (Attenuation) cahaya sangat penting diketahui terutama dalam merancang sistem telekomunikasi serat optik itu sendiri. 
+            li Berikut ini beberapa hal yang menyumbang kepada pelemahan cahaya pada serat optik :
+            li(style='text-align : left;') 1. Penyerapan (Absorption) : Kehilangan cahaya yang disebabkan adanya kotoran dalam Fiber Optik
+            li(style='text-align : left;') 2. Penyebaran (Scattering)
+            li(style='text-align : left;') 3. Kehilangan Radiasi (Radiative Losses)
 
       section
         h3.bullet Struktur fiber optik terdiri dari beberapa susunan
@@ -137,18 +146,14 @@ html
 
       section
         h3.bullet Optical Transmitter
-        img(src='File/image/transmitter.png')
-        hr
         ul(style='text-align:justify; font-size : 12px;')
           li Optical transmitter merupakan sebuah komponen yang bertugas untuk mengirimkan sinyal-sinyal cahaya ke dalam media pembawanya. Di dalam komponen ini terjadi proses mengubah sinyal-sinyal elektronik analog maupun digital menjadi sebuah bentuk sinyal-sinyal cahaya. Sinyal inilah yang kemudian bertugas sebagai sinyal korespondensi untuk data Anda. Optical transmitter secara fisik sangat dekat dengan media fiber optic pada penggunaannya. Dan bahkan optical transmitter dilengkapi dengan sebuah lensa yang akan memfokuskan cahaya ke dalam media fiber optik tersebut. Sumber cahaya dari komponen ini bisa bermacam-macam
-        
+          hr
           li Sumber cahaya yang biasanya digunakan adalah Light Emitting Dioda (LED) atau solid state laser dioda. Sumber cahaya yang menggunakan LED lebih sedikit mengonsumsi daya daripada laser. Namun sebagai konsekuensinya, sinar yang dipancarkan oleh LED tidak dapat menempuh jarak sejauh laser.
 
 
       section
         h3.bullet Kabel Fiber Optik
-        img(src='File/image/fiberoptic.jpg')
-        hr
         ul(style='text-align:justify; font-size : 12px;')
           li Komponen inilah yang merupakan pemeran utama dalam sistem ini. Kabel fiber optik biasanya terdiri dari satu atau lebih fiber optik yang akan bertugas untuk memandu cahaya-cahaya tadi dari lokasi asalnya hingga sampai ke tujuan. Kabel fiber optic secara konstruksi hampir menyerupai kabel listrik, hanya saja ada sedikit tambahan proteksi untuk melindungi transmisi cahaya. Biasanya kabel fiber optic juga bisa disambung, namun dengan proses yang sangat rumit. Proses penyambungan kabel ini sering disebut dengan istilah splicing.
 
@@ -164,48 +169,18 @@ html
 
       section
         h3.bullet Optical Receiver
-        img(src='File/image/receiver.png')
-        hr
-        ul(style='text-align:justify; font-size : 12px;')
-          li Optical receiver memiliki tugas untuk menangkap semua cahaya yang dikirimkan oleh optical transmitter. Setelah cahaya ditangkap dari media fiber optic, maka sinyal ini akan didecode menjadi sinyal-sinyal digital yang tidak lain adalah informasi yang dikirimkan. Setelah di-decode, sinyal listrik digital tadi dikirimkan ke sistem pemrosesnya seperti misalnya ke televisi, ke perangkat komputer, ke telepon, dan banyak lagi perangkat digital lainnya. Biasanya optical receiver ini adalah berupa sensor cahaya seperti photocell atau photodiode yang sangat peka dan sensitif terhadap perubahan cahaya.
+          hr
 
+          ul(style='text-align:justify; font-size : 12px;')
+            li Optical receiver memiliki tugas untuk menangkap semua cahaya yang dikirimkan oleh optical transmitter. Setelah cahaya ditangkap dari media fiber optic, maka sinyal ini akan didecode menjadi sinyal-sinyal digital yang tidak lain adalah informasi yang dikirimkan. Setelah di-decode, sinyal listrik digital tadi dikirimkan ke sistem pemrosesnya seperti misalnya ke televisi, ke perangkat komputer, ke telepon, dan banyak lagi perangkat digital lainnya. Biasanya optical receiver ini adalah berupa sensor cahaya seperti photocell atau photodiode yang sangat peka dan sensitif terhadap perubahan cahaya.
 
-
-      section
-        h2 Sebab Pelemahan Cahaya Fiber Optik
-          ul(style= 'font-size : 14px;')
-            li Pelemahan (Attenuation) cahaya sangat penting diketahui terutama dalam merancang sistem telekomunikasi serat optik itu sendiri. 
-            li Berikut ini beberapa hal yang menyumbang kepada pelemahan cahaya pada serat optik :
-            li(style='text-align : left;') 1. Penyerapan (Absorption) : Kehilangan cahaya yang disebabkan adanya kotoran dalam Fiber Optik
-            li(style='text-align : left;') 2. Penyebaran (Scattering)
-            li(style='text-align : left;') 3. Kehilangan Radiasi (Radiative Losses)
-
-      section
-       h5.bullet(style='text-align:left') Pada kabel Fiber optik, sambungan ujung terminal atau disebut juga konektor, biasanya memiliki tipe standar seperti berikut :
-       hr
-       ul(style='font-size:10px;text-align:left;')
-          li FC (Fiber Connector): digunakan untuk kabel single mode dengan akurasi yang sangat tinggi dalam menghubungkan kabel dengan transmitter maupun receiver. Konektor ini menggunakan sistem drat ulir dengan posisi yang dapat diatur, sehingga ketika dipasangkan ke perangkat lain, akurasinya tidak akan mudah berubah
-          li SC (Subsciber Connector): digunakan untuk kabel single mode, dengan sistem dicabut-pasang. Konektor ini tidak terlalu mahal, simpel, dan dapat diatur secara manual serta akurasinya baik bila dipasangkan ke perangkat lain.
-
-      section
-        ul(style='font-size:10px;text-align:left;')
-           li ST (Straight Tip): bentuknya seperti bayonet berkunci hampir mirip dengan konektor BNC. Sangat umum digunakan baik untuk kabel multi mode maupun single mode. Sangat mudah digunakan baik dipasang maupun dicabut
-           li Biconic: Salah satu konektor yang kali pertama muncul dalam komunikasi fiber optik. Saat ini sangat jarang digunakan
-           li D4: konektor ini hampir mirip dengan FC hanya berbeda ukurannya saja. Perbedaannya sekitar 2 mm pada bagian ferrule-nya
-           li SMA: konektor ini merupakan pendahulu dari konektor ST yang sama-sama menggunakan penutup dan pelindung. Namun seiring dengan berkembangnya ST konektor, maka konektor ini sudah tidak berkembang lagi penggunaannya
-
-      section
-        p Connector Fiber Optic
-        img(src='File/image/connector.jpg')
 
 
       
 
-      section
-        h2 Sistem Komunikasi Fiber Optik
-        p(style='font-size:14px;') Dibagi atas beberapa generasi, yaitu :
-        p(style='font-size:16px;') Generasi pertama (mulai 1975)
-        p(style='font-size:14px;') Sistem masih sederhana dan menjadi dasar bagi sistem generasi berikutnya, terdiri dari : alat encoding, untuk mengubah input (misal suara) menjadi sinyal listrik transmitter, mengubah sinyal listrik menjadi sinyal gelombang, berupa LED dengan panjang gelombang 0,87mm.
+      section(data-bespoke-state='emphatic')
+        h2 Emphatic Slide!
+        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-state">bespoke-state</a>
 
       section
         h2.bullet Just the beginning...
