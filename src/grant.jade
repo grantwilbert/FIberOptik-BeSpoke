@@ -233,6 +233,13 @@ html
       section
         h2(style='font-size:14px;') Generasi keempat (mulai 1989)
         p(style='font-size:14px;') Dimulainya riset dan pengembangan sistem koheren, modulasinya yang dipakai bukan modulasi intensitas melainkan modulasi frekuensi, sehingga sinyal yang sudah lemah intensitasnya masih dapat dideteksi. Maka jarak yang dapat ditempuh, juga kapasitas transmisinya, ikut membesar. Pada tahun 1984 kapasitasnya sudah dapat menyamai kapasitas sistem deteksi langsung. Sayang, generasi ini terhambat perkembangannya karena teknologi piranti sumber dan deteksi modulasi frekuensi masih jauh tertinggal. Tetapi tidak dapat disangkal bahwa sistem koheren ini punya potensi untuk maju pesat pada masa-masa yang akan datang.
+
+      section
+        h2 Generasi keenam
+        p Pada tahun 1988 Linn F. Mollenauer memelopori sistem komunikasi soliton. Soliton adalah pulsa gelombang yang terdiri dari banyak komponen panjang gelombang. Komponen-komponennya memiliki panjang gelombang yang berbeda hanya sedikit, dan juga bervariasi dalam intensitasnya. Panjang soliton hanya 10-12 detik dan dapat dibagi menjadi beberapa komponen yang saling berdekatan, sehingga sinyal-sinyal yang berupa soliton merupakan informasi yang terdiri dari beberapa saluran sekaligus (wavelength division multiplexing). Eksperimen menunjukkan bahwa soliton minimal dapat membawa 5 saluran yang masing-masing membawa informasi dengan laju 5 Gb/s. Cacah saluran dapat dibuat menjadi dua kali lipat lebih banyak jika digunakan multiplexing polarisasi, karena setiap saluran memiliki dua polarisasi yang berbeda. Kapasitas transmisi yang telah diuji mencapai 35 ribu Gb.km/s.
+
+      section
+        p Cara kerja sistem soliton ini adalah efek Kerr, yaitu sinar-sinar yang panjang gelombangnya sama akan merambat dengan laju yang berbeda di dalam suatu bahan jika intensitasnya melebihi suatu harga batas. Efek ini kemudian digunakan untuk menetralisir efek dispersi, sehingga soliton tidak akan melebar pada waktu sampai di receiver. Hal ini sangat menguntungkan karena tingkat kesalahan yang ditimbulkannya amat kecil bahkan dapat diabaikan. Tampak bahwa penggabungan ciri beberapa generasi teknologi serat optik akan mampu menghasilkan suatu sistem komunikasi yang mendekati ideal, yaitu yang memiliki kapasitas transmisi yang sebesar-besarnya dengan tingkat kesalahan yang sekecil-kecilnya yang jelas, dunia komunikasi abad 21 mendatang tidak dapat dihindari lagi akan dirajai oleh teknologi serat optik.
     // build:js scripts/scripts.js
     script(src='bower_components/bespoke.js/dist/bespoke.min.js')
     script(src='bower_components/bespoke-keys/dist/bespoke-keys.min.js')
@@ -254,4 +261,22 @@ html
       section
         h2 Generasi keempat (mulai 1984)
         p Dimulainya riset dan pengembangan sistem koheren, modulasinya yang dipakai bukan modulasi intensitas melainkan modulasi frekuensi, sehingga sinyal yang sudah lemah intensitasnya masih dapat dideteksi. Maka jarak yang dapat ditempuh, juga kapasitas transmisinya, ikut membesar. Pada tahun 1984 kapasitasnya sudah dapat menyamai kapasitas sistem deteksi langsung. Sayang, generasi ini terhambat perkembangannya karena teknologi piranti sumber dan deteksi modulasi frekuensi masih jauh tertinggal. Tetapi tidak dapat disangkal bahwa sistem koheren ini punya potensi untuk maju pesat pada masa-masa yang akan datang.
+
+      section
+        h2 Generasi kelima (mulai 1989)
+        p Pada generasi ini dikembangkan suatu penguat optik yang menggantikan fungsi repeater pada generasi-generasi sebelumnya. Sebuah penguat optik terdiri dari sebuah diode laser InGaAsP (panjang gelombang 1,48 mm) dan sejumlah serat optik dengan doping erbium (Er) di terasnya. Pada saat serat ini disinari diode lasernya, atom-atom erbium di dalamnya akan tereksitasi dan membuat inversi populasi*, sehingga bila ada sinyal lemah masuk penguat dan lewat di dalam serat, atom-atom itu akan serentak mengadakan deeksitasi yang disebut emisi terangsang (stimulated emission) Einstein. Akibatnya sinyal yang sudah melemah akan diperkuat kembali oleh emisi ini dan diteruskan keluar penguat. Keunggulan penguat optik ini terhadap repeater adalah tidak terjadinya gangguan terhadap perjalanan sinyal gelombang, sinyal gelombang tidak perlu diubah jadi listrik dulu dan seterusnya seperti yang terjadi pada repeater. Dengan adanya penguat optik ini kapasitas transmisi melonjak hebat sekali. Pada awal pengembangannya hanya dicapai 400 Gb.km/s, tetapi setahun kemudian kapasitas transmisi sudah menembus harga 50 ribu Gb.km/s.
+
+    // build:js scripts/scripts.js
+    script(src='bower_components/bespoke.js/dist/bespoke.min.js')
+    script(src='bower_components/bespoke-keys/dist/bespoke-keys.min.js')
+    script(src='bower_components/bespoke-touch/dist/bespoke-touch.min.js')
+    script(src='bower_components/bespoke-bullets/dist/bespoke-bullets.min.js')
+    script(src='bower_components/bespoke-scale/dist/bespoke-scale.min.js')
+    script(src='bower_components/bespoke-hash/dist/bespoke-hash.min.js')
+    script(src='bower_components/bespoke-progress/dist/bespoke-progress.min.js')
+    script(src='bower_components/bespoke-state/dist/bespoke-state.min.js')
+    script(src='bower_components/bespoke-forms/dist/bespoke-forms.min.js')
+    script(src='bower_components/prism/prism.js')
+    script(src='scripts/main.js')
+    // endbuild
 
