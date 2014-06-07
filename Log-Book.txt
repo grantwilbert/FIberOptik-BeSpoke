@@ -1,0 +1,412 @@
+Log book
+NB: pindahkan semua note yang ada di chat group kesini
+--------------------------------------------------
+INFORMASI UMUM
+--------------------------------------------------
+
+Nama Kelompok : G.A.J.E
+Judul Presentasi : Fiber Optik
+Alamat Github : https://github.com/jemmyphan/FIberOptik-BeSpoke
+Alamat Trello : https://trello.com/b/LJrAWpuV/fiber-optic-tkkpl
+
+Anggota 1
+~~~~~~~~~~
+	Nama	: Grant Wilbert
+	NIM	: 
+
+Anggota 2
+~~~~~~~~~~
+	Nama	: Alfian Agusnady
+	NIM	: 12.111.0294
+
+Anggota 3
+~~~~~~~~~~
+	Nama	: Jemmy Hasjem
+	NIM	: 
+
+Anggota 4
+~~~~~~~~~~
+	Nama	: Eliot Tan
+	NIM	: 
+
+
+------------------------------
+	Sprint
+------------------------------
+
+Sprint 1	26/5 - 28/5
+~~~~~~~~
+	Scrum Master : Jemmy Hasjem ()
+
+
+
+Sprint 2	29/5 - 31/5
+~~~~~~~~
+	Scrum Master : Alfian Agusnady (12.111.0294)
+
+
+
+Sprint 3	2/6 - 4/6
+~~~~~~~~
+	Scrum Master : Grant Wilbert ()
+
+
+
+Sprint 4	5/6 - 7/6
+~~~~~~~~
+	Scrum Master : Eliot Tan ()
+
+
+
+------------------------------
+	Daily Scrum
+------------------------------
+
+
+26/5
+~~~~
+Jemmy Hasjem  :
+	1. 
+				
+	2. saya mencoba menginstall bespoke dan lain2
+				
+	3. kendala saya hari ini adalah tidak dapat menginstall bespoke dengan baik.
+
+Alfian Agusnady :
+	1
+	2. melakukan instalasi git GUI, github dan node js
+	3. Kendala saat melakukan instalasi, dan kurang memahami bespoke, dan syntax syntax git
+
+
+Grant Wilbert  :
+	1. 
+	2.	
+
+
+Eliot Tan :
+	1. 
+	2. 
+
+
+
+
+***************************************************
+
+27/5
+~~~~
+Jemmy Hasjem  :
+	1. semalam saya mendapati kendala yang banyak di penginstallan bespoke
+				2. hari ini saya mencoba install ulang bespoke.js dan mencoba mempelajari jade dan 	   penggunan github serta melakukan commit pertama
+	
+	3. kendala saya pada hari ini adalah belum begitu memahami jade dan github
+
+
+Alfian Agusnady :
+	1. Fork repo master
+	2. Kendala, tidak bisa clone repo
+
+
+Grant Wilbert  :
+	1. 
+	2.	
+
+
+Eliot Tan :
+	1. 
+	2. 
+
+
+
+***************************************************
+
+28/5
+~~~~
+Jemmy Hasjem  :
+	1. semalam saya sudah membuat beberapa slide percobaan
+
+	2. hari ini saya mencoba untuk berkolaborasi dengan github dengan memakai fitu42 	   github
+
+	3. terjadi congflik yang saya tidak mengerti
+
+
+Alfian Agusnady :
+	1. perbaikan title, penambahan informasi mengenai fiber optic
+	2.
+
+
+Grant Wilbert  :
+	1. 
+	2.	
+
+
+Eliot Tan :
+	1. 
+	2. 
+
+
+***************************************************
+
+29/5
+~~~~
+Jemmy Hasjem  :
+	1. semalam saya mencba memahami conflik yang terjadi
+
+	2. hari ini saya mencoba bereksploitasi dengan file2 lain selain jade
+				3. masih belum mengerti dengan konflik yang terjadi 
+
+	
+
+Alfian Agusnady :
+	1. Penambahan slide slide mengenai Jenis jenis kabel fiber optik dan komponen komponennya dalam sistem komunikasi fiber optik
+	2.
+
+
+Grant Wilbert  :
+	1. 
+	2.	
+
+
+Eliot Tan :
+	1. 
+	2. 
+
+
+***************************************************
+
+30/5
+~~~~
+Jemmy Hasjem  :
+	1. semalam saya mencoba memfix konflik dan akhirnya mengerti cara merge secara manual
+		2. mencoba bermain2 dengan theme yang telah disediakan
+
+	3. -
+
+	
+Alfian Agusnady :
+	1. Fix crash di index.jade
+	2.
+
+
+Grant Wilbert  :
+	1. 
+	2.	
+
+
+Eliot Tan :
+	1. 
+	2. 
+
+
+***************************************************
+
+31/5
+~~~~
+Jemmy Hasjem  :
+	1.
+	2. 
+
+Alfian Agusnady :
+	1. Menambah gambar FO, transmitter, receiver serta membuat slide connector fiber optic
+	2. kendala, terjadi crash karena belum mahir bermain dengan 2 repository lokal
+
+
+Grant Wilbert  :
+	1. 
+	2.	
+
+
+Eliot Tan :
+	1. 
+	2. 
+***************************************************
+
+1/6
+~~~~
+Jemmy Hasjem  :
+	1. semalam saya mencoba mengedit theme
+
+	2. saya mencoba membuat link lokal utk loncat ke beberapa slide langsung
+			3. kendala saya adalah saya belum begitu mengetahui cara membuat link lokal
+
+
+
+Alfian Agusnady :
+	1. Tambah foto connector
+	2.
+
+
+Grant Wilbert  :
+	1. 
+	2.	
+
+
+Eliot Tan :
+	1. 
+	2. 
+
+
+
+
+***************************************************
+
+2/6
+~~~~
+Jemmy Hasjem  :
+	1. semalam saya membuat link utk jump ke slide lokal
+				
+	2. hari ini saya mencoba mengedit css pada theme yang ada dan melakukan fix konlfik 	   dan mencari cara untuk mengihdari konflik
+				
+	3. -
+
+		 
+
+Alfian Agusnady :
+	1. Melanjutkan slide penyambungan kabel serat optik
+	2.
+
+
+Grant Wilbert  :
+	1. 
+	2.	
+
+
+Eliot Tan :
+	1. 
+	2. 
+
+
+
+
+***************************************************
+
+3/6
+~~~~
+Jemmy Hasjem  :
+	1. semalam saya telah membuat jade baru untuk menghindari konflik pada editan di index.jade
+
+	2. hari ini menambah satu slide penrapan fiber optik
+
+	3. kendala saya adalah ada sedikit error yang saya tidak begitu mengerti
+
+
+	
+
+Alfian Agusnady :
+	1. Penambahan script.js di file eliot jade dan mengcopy persentasi dari index.jade ke fian.jade dan melanjutkan pembuatan persentasi disana untuk menghindari crash dengan
+	2.
+
+
+Grant Wilbert  :
+	1. 
+	2.	
+
+
+Eliot Tan :
+	1. 
+	2. 
+
+
+***************************************************
+
+4/6
+~~~~
+Jemmy Hasjem  :
+	1. semalam saya menambhakan slide
+
+	2. saya hari ini mencoba menambahkan satu slide baru
+				
+	3. -
+
+
+Alfian Agusnady :
+	1. Sambung pembuatan slide penyambungan fiber optik
+	2.
+
+
+Grant Wilbert  :
+	1. 
+	2.	
+
+
+Eliot Tan :
+	1. 
+	2. 
+
+
+
+***************************************************
+
+5/6
+~~~~
+Jemmy Hasjem  :
+	1. semalam saya mencoba menambahkan slide
+
+	2. hari ini saya ingin mencoba membuat sebuah fitur navigator dengan javascript
+			3. kendala saya adalah saya belum mengerti javascript
+
+Alfian Agusnady :
+	1. Membuat slide keunggulan multi mode fiber
+	2. kendala tidak ada
+
+
+Grant Wilbert  :
+	1. 
+	2.	
+
+
+Eliot Tan :
+	1. 
+	2. 
+
+
+
+***************************************************
+
+6/6
+~~~~
+Jemmy Hasjem  :
+	1. semalam saya mencoba menginstall bootsrap 
+			     	
+	2. hari ini saya melanjutkan sedikit 
+				
+	3. kendala saya hari ini saya masih belum bisa membuat fitur navigator dan terjadi 	   error parah sehingga saya mengclone ualng dari repo github
+				   	   karena error masih ada walaupun saya telah hard reset ke branch lama
+
+Alfian Agusnady :
+	1. Google fiber
+	2.
+
+
+Grant Wilbert  :
+	1. 
+	2.	
+
+
+Eliot Tan :
+	1. 
+	2. 
+
+
+
+***************************************************
+
+7/6
+~~~~
+
+Jemmy Hasjem  :
+	1.
+	2. 
+
+Alfian Agusnady :
+	1. Sambung Google fiber dan pindahkan presentasi dari fian.jade ke index.jade
+	2.
+
+
+Grant Wilbert  :
+	1. 
+	2.	
+
+
+Eliot Tan :
+	1. 
+	2. 
