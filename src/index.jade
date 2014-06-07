@@ -9,19 +9,22 @@ html
     //- Check out 'src/bower_components/prism/themes/' for available themes
     link(rel='stylesheet', type='text/css', href='bower_components/prism/themes/prism-tomorrow.css')
     link(rel='stylesheet', type='text/css', href='styles/themes.css')
+    link(rel='stylesheet', type='text/css', href='bower_components/bootstrap/dist/css/bootstrap-theme.min.css')
+    link(rel='stylesheet', type='text/css', href='bower_components/bootstrap/dist/css/bootstrap.min.css')
     link(rel='stylesheet', type='text/css', href='styles/main.css')
     // endbuild
 
   body.coverflow
-
+    header
+      <a href='\public\index.html#5'>test</a>
     article
-
       section
         h1 Fiber Optik
         img(src='File/image/fiber-optic.jpg')
 
       section
         h2 Nama Anggota
+        
         ul
           li Jemmy Hasjem    121111494
           li Grant Wilbert   121112465
@@ -33,14 +36,14 @@ html
         p(style='line-height:14px;') Serat optik adalah saluran transmisi atau sejenis kabel yang  terbuat dari serat kaca atau plastik yang sangat halus dan lebih kecil dari sehelai rambut (sekitar 120 mikrometer), dan dapat digunakan untuk mentransmisikan sinyal cahaya dari suatu tempat ke tempat lain hingga jarak 50km
       section
         h1 Jump to...
-        ul
-          li <a href="#5">Sejarah Fiber Optik</a>
-          li <a href="#6">Fungsi Fiber Optik</a>
-          li <a href="#7">Stuktur Fiber Optik</a>
-          li <a href="#9">Kelebihan Fiber Optik</a>
-          li <a href="#10">Kekurangan Fiber Optik</a>
-          li <a href="#11">kode warna Fiber Optik</a>
-          li <a href="#12">Jenis-jenis Fiber Optik</a>
+          p
+          p <a href="#5" style='font-size:20px;'>Sejarah Fiber Optik</a> 
+          p <a href="#6" style='font-size:20px;'>Fungsi Fiber Optik</a> 
+          p <a href="#7" style='font-size:20px;'>Stuktur Fiber Optik</a> 
+          p <a href="#9" style='font-size:20px;'>Kelebihan Fiber Optik</a> 
+          p <a href="#10" style='font-size:20px;'>Kekurangan Fiber Optik</a> 
+          p <a href="#11" style='font-size:20px;'>kode warna Fiber Optik</a>
+          p <a href="#12" style='font-size:20px;'>Jenis-jenis Fiber Optik</a>
 
 
       section
@@ -270,4 +273,6 @@ html
     script(src='bower_components/bespoke-forms/dist/bespoke-forms.min.js')
     script(src='bower_components/prism/prism.js')
     script(src='scripts/main.js')
+    script(src='bower_components/jquery/dist/jquery.min.js')
+    script(src='bower_components/bootstrap/dist/js/bootstrap.min.js')
     // endbuild

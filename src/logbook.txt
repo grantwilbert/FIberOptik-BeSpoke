@@ -1,0 +1,62 @@
+log book
+NB: pindahkan semua note yang ada di chat group kesini...
+
+sprint-1 scrum master : jemmy hasjem
+	daily scrum
+		day 1
+		jemmy hasjem:	1. 
+				2. saya mencoba menginstall bespoke dan lain2
+				3. kendala saya hari ini adalah tidak dapat menginstall bespoke dengan baik.
+		day 2
+		jemmy hasjem:   1. semalam saya mendapati kendala yang banyak di penginstallan bespoke
+				2. hari ini saya mencoba install ulang bespoke.js dan mencoba mempelajari jade dan penggunan github serta melakukan commit pertama
+				3. kendala saya pada hari ini adalah belum begitu memahami jade dan github
+		day 3
+		jemmy hasjem:   1. semalam saya sudah membuat beberapa slide percobaan
+				2. hari ini saya mencoba untuk berkolaborasi dengan github dengan memakai fitu42 github
+				3. terjadi congflik yang saya tidak mengerti
+sprint-2 scrum master : eliot tan		
+		day 4 
+		jemmy hasjem: 	1. semalam saya mencba memahami conflik yang terjadi
+				2. hari ini saya mencoba bereksploitasi dengan file2 lain selain jade
+				3. masih belum mengerti dengan konflik yang terjadi 
+		
+		day 5
+		jemmy hasjem:   1. semalam saya mencoba memfix konflik dan akhirnya mengerti cara merge secara manual
+				2. mencoba bermain2 dengan theme yang telah disediakan
+				3. -
+		
+		day 6 
+		jemmy hasjem :	1. semalam saya mencoba mengedit theme
+				2. saya mencoba membuat link lokal utk loncat ke beberapa slide langsung
+				3. kendala saya adalah saya belum begitu mengetahui cara membuat link lokal
+sprint-3 scrum master : grant wilbert	
+		day 7
+		jemmy hasjem:   1. semalam saya membuat link utk jump ke slide lokal
+				2. hari ini saya mencoba mengedit css pada theme yang ada dan melakukan fix konlfik dan mencari cara untuk mengihdari konflik
+				3. -
+
+		day 8
+		jemmy hasjem :	1. semalam saya telah membuat jade baru untuk menghindari konflik pada editan di index.jade
+				2. hari ini menambah satu slide penrapan fiber optik
+				3. kendala saya adalah ada sedikit error yang saya tidak begitu mengerti
+
+		day 9
+		jemmy hasjem :  1. semalam saya menambhakan slide
+				2. saya hari ini mencoba menambahkan satu slide baru
+				3. -
+sprint-4 scrum master : alfian agusnady		
+		day 10
+		jemmy hasjem :  1. semalam saya mencoba menambahkan slide
+				2. hari ini saya ingin mencoba membuat sebuah fitur navigator dengan javascript
+				3. kendala saya adalah saya belum mengerti javascript dan 
+
+		day 11
+		jemmy hasjem :  1. semalam saya mencoba menginstall bootsrap 
+			     	2. hari ini saya melanjutkan sedikit 
+				3. kendala saya hari ini saya masih belum bisa membuat fitur navigator dan terjadi error parah sehingga saya mengclone ualng dari repo github
+				   karena error masih ada walaupun saya telah hard reset ke branch lama
+
+		day 12
+		jemmy hasjem :
+			
